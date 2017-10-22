@@ -8,7 +8,7 @@ These Docker containers help to automate compiling Rust applications for Linux, 
 
 https://hub.docker.com/r/mcandre/rust/
 
-# EXAMPLE
+# EXAMPLES
 
 ```console
 $ docker run -v "$(pwd):/src" mcandre/rust:glibc sh -c "cd /src && rustc hello.rs && ./hello"
